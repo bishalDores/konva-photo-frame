@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  min-height: 100vh;
+}
+
+.text {
+  color: white;
+  text-align: center;
+}
+
+span {
+  background-color: papayawhip;
+  color: black;
+  padding: 5px;
+}
+
+#sidebar {
+  min-width: 250px;
+  background-color: black;
+  padding: 20px;
+}
+
+#konva {
+  background-color: white;
+}
